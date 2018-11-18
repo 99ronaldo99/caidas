@@ -1,0 +1,63 @@
+<ion-header>
+  
+</ion-header>
+
+<ion-content class="tutorial-page">
+  <ion-slides pager >
+    <ion-slide >
+      <ion-card class="contenedor-content" >
+        <ion-img  style="width: 360px; height: 240px;" (click)="openEjercicios()" src="assets/imagenes/monitoring.jpg"></ion-img>
+        <ion-toolbar no-border-top>
+            <h2>vigilancia</h2>
+            <ion-card-content>
+              <p><strong>Solo los IMPARABLES entrenan, los perdedores de quejan.</strong></p>
+            </ion-card-content>
+        </ion-toolbar>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide >
+       <ion-card class="contenedor-content" >
+          <ion-img  style="width: 360px; height: 240px;" (click)="openRutinas()" src="assets/imagenes/alarmas.jpg"></ion-img>
+        <ion-toolbar no-border-top>
+              <h2>Alarmas</h2>
+              <ion-card-content>
+                <p><strong>Recuerda en cuanto has progresado,no lo que te falta.los perdedores de quejan.</strong></p>
+              </ion-card-content>
+        </ion-toolbar>
+      </ion-card>
+    </ion-slide>
+    
+    <ion-slide >
+      <ion-card class="contenedor-content">
+        <ion-img  style="width: 360px; height: 240px;" (click)="openNutricion()" src="assets/imagenes/notificacion.jpg"></ion-img>
+        <ion-toolbar no-border-top>
+              <h2>Notificaciones</h2>
+            <ion-card-content>
+              <p><strong>Un ganador es un perdedor que no se dio porvencido.los perdedores de quejan.los perdedores de quejan.</strong></p>
+            </ion-card-content>
+        </ion-toolbar>
+      </ion-card>  
+    </ion-slide>
+
+    <ion-slide >
+      <ion-card class="contenedor-content">
+        <ion-img  style="width: 360px; height: 240px;" (click)="openRecomendaciones()" src="assets/imagenes/location.jpg"></ion-img>
+        <ion-toolbar no-border-top>
+              <h2>Ubicación</h2>
+            <ion-card-content>
+              <p><strong>El dolor es temporal</strong></p>
+            </ion-card-content>  
+        </ion-toolbar>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
+
+<ion-footer > 
+  <ion-navbar >
+  	<ion-buttons end>
+      <button ion-button color="primary">Skip</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-footer>
