@@ -8,7 +8,7 @@ import { FormularioPage } from '../formulario/formulario';
   templateUrl: 'pagina2.html',
 })
 
-alert("Hello! I am an alert box!!");
+
 export class Pagina2Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
