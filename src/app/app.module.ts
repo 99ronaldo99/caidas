@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { Pagina1Page } from '../pages/pagina1/pagina1';
 import { Pagina2Page } from '../pages/pagina2/pagina2';
+import { FormularioPage } from '../pages/formulario/formulario';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +18,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     Pagina1Page,
-    Pagina2Page
+    Pagina2Page,
+    FormularioPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     Pagina1Page,
-    Pagina2Page
+    Pagina2Page,
+    FormularioPage
   ],
   providers: [
     StatusBar,
