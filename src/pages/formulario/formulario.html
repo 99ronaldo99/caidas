@@ -16,30 +16,38 @@
 	 <ion-list>
       <ion-item>
         <ion-label floating>Username</ion-label>
-        <ion-input type="text" value=""></ion-input>
+        <ion-input required="required" type="text" value=""></ion-input>
       </ion-item>
       <ion-item>
         <ion-label floating>Password</ion-label>
-        <ion-input type="password" value=""></ion-input>
+        <ion-input required="required" type="password" value=""></ion-input>
       </ion-item>
     </ion-list>
 
     <ion-list>
-		  <ion-item>
-		    <ion-label>Prefijos telefónicos</ion-label>
-		    <ion-select [(ngModel)]="gaming">
-		      <ion-option value="nes">+58</ion-option>
-		      <ion-option value="n64">+57(Colombia)</ion-option>
-		      <ion-option value="ps">+59</ion-option>
-		      <ion-option value="genesis">+60</ion-option>
-		    </ion-select>
-		  </ion-item>
+	  <ion-item>
+	    <ion-label>Prefijo telefónico</ion-label>
+	    <ion-select  [(ngModel)]="gaming">
+	      <ion-option value="nes">Brasil +55</ion-option>
+	      <ion-option value="Colombia">Colombia +57</ion-option>
+	      <ion-option value="ps">Perú +51</ion-option>
+	      <ion-option value="genesis">Venezuela +58</ion-option>
+	      <ion-option value="saturn">Panamá +507</ion-option>
+	      <ion-option value="snes">Ecuador +593</ion-option>
+	    </ion-select>
+	  </ion-item>
 	</ion-list>
+	<ion-list>
+		<ion-item >
+             <ion-label floating  >Número de teléfono</ion-label>
+            <ion-input type="number" maxlength="10" [(ngModel)]="edad" name="edad" required="required"></ion-input>
+        </ion-item>
+    </ion-list>
 
     <div padding>
       <button ion-button color="primary" block>Sign In</button>
     </div>
 
 
-	</ion-card>>
+	</ion-card>
 </ion-content>

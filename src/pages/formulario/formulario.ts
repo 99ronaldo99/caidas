@@ -14,7 +14,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'formulario.html',
 })
 export class FormularioPage {
-	gaming: string = "n64";
+	gaming: string = "Colombia";
+	items;
 
   constructor(
   	public navCtrl: NavController, 

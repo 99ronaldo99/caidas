@@ -1,5 +1,7 @@
 {
   "name": "caidas",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
