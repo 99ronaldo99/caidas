@@ -10,5 +10,11 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
+  start(){
+
+  }
+  stop(){
+  	
+  }
 
 }
